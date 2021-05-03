@@ -40,10 +40,8 @@
 .content h2{
     float:right;
 }
-.logo{
-    width: 80px;
-    cursor:pointer;
-}
+
+
 .navbar ul li{
     list-style: none;
     display: inline-block;
@@ -70,97 +68,46 @@
     background-color: teal;
 }
 
-.box1 {
+
+
+
+.column {
+    float: left;
+    width: 25%;
     padding: 10px;
-    height: 30px;
-    line-height: 30px;
-    background-color: blue;
-    border: solid 1px turquoise
-}
+    height: 300px; 
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-#box2 {
-    height: 15px;
-    padding: 8px;
-    border: solid 1px turquoise
-}
-
-#box3 {
-    padding: 10px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: row;
-    border: solid 1px turquoise;
-    width: 200%;
-    height: 600%;
-}
-
-#box3 {
-    flex-grow: 2;
-    border: solid 1px turquoise;
-    background-image: url("./images/business-meetings.jpg");
-    
-    background-size: cover;
-    width: 200%;
-    height: 600%;
-}
-
-
-.middle-column {
-    flex-grow: 1;
-    display:flex;
-    flex-direction:column-reverse;
-    background-image: url(./images/business-growth-graph.jpg);
-
-}
-
-.middle-column div {
-    flex-grow: 1;
-    margin: 0 8px;
-    border: solid 1px turquoise;
-}
-
-.middle-column div+div {
-    margin-top: 8px
-}
-
-
-
-.box-item1{
-    background-image: url("./images/business-growth-graph.jpg");
-    background-size: cover;
-}
-.box-item2{
-    background-image: url("./images/presentation.jpg");
-    background-size: cover;
-}
-
-.box-item3 {
-    flex-grow: 1;
-    border: solid 1px turquoise;
-     background-image:url("./images/organizational-chart.jpg") ;
-     background-size: cover;}
-
-.box-item4 {
-    background-image:url("./images/runing.jpg");
-    background-size: cover;
-}
 
 .verticalLine {
-    border-left: thick solid blue
+    border-left: thick solid blue;
     border-right: thick solid blue;}
 
     .contact {
        
-        background-color:blue;
+        background-color:yellow;
         position: relative;
        top: 600px;
        width:max-content;
+       display: flex
+       ;
        
     }
 
-    .column {
-        float: left;
-        width: 25%;
+    .middle-column {
+      
+        display: flex;
+        align-items: flex-start;
+        align-items: flex-end;
+        align-items: center;
+        flex-direction: column;
       }
 
       .rows:after {
@@ -168,3 +115,4 @@
         display: table;
         clear: both;
       }
+    
