@@ -97,9 +97,9 @@
    background-size:contain;
 }
 
-.img-calculator{
+.img-music{
     width: 400px;
-    background-image: url(./images/calculator.jpg);
+    background-image: url(./images/beatItLogo01.png);
     background-size: contain;
 }
 .img-growth{
@@ -107,9 +107,9 @@
     background-image: url(./images/business-growth-graph.jpg);
     background-size: contain;
 }
-.img-music{
+.img-chart{
     width: 375px;
-    background-image:url(./images/beatItLogo01.png);
+    background-image:url(./images/organizational-chart.jpg);
     background-size: contain;
 }
 
