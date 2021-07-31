@@ -8,7 +8,7 @@ Also included are screenshots of the deployed webpage.
 
 ![Screenshot](assets/Screenshot13.png)
 
-![Screenshot](assets/Screenshot14.png
-)
+![Screenshot](assets/Screenshot14.png)
 
 ![Screenshot](assets/screenshot15.png)
+
